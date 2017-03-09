@@ -1,0 +1,20 @@
+uuid: 8ae06f20-829a-4b1c-acb8-9901dfd2db01
+langcode: en
+status: true
+dependencies: {  }
+id: control_body
+label: Control-Body
+weight: 4
+is_admin: null
+permissions:
+  0: 'access content overview'
+  1: 'view all revisions'
+  2: 'view own unpublished content'
+  5: 'view the administration theme'
+  6: 'access toolbar'
+  7: 'view moderation states'
+  8: 'view latest version'
+  9: 'use retired_proposal transition'
+  10: 'use submitted_proposal transition'
+  11: 'use submitted_published transition'
+  12: 'view any unpublished content'

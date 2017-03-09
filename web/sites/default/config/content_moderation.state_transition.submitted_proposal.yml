@@ -1,0 +1,12 @@
+uuid: 9dacea78-db2f-4b3d-9d1c-ec3ccfbf711f
+langcode: en
+status: true
+dependencies:
+  config:
+    - content_moderation.state.proposal
+    - content_moderation.state.submitted
+id: submitted_proposal
+label: Proposal
+stateFrom: submitted
+stateTo: proposal
+weight: -2

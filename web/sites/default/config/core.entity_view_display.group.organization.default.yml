@@ -1,0 +1,60 @@
+uuid: 1a1fbc34-81d6-4e77-8836-d2793e38aa08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group.organization.field_description
+    - group.type.organization
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - label
+        - field_description
+        - 'dynamic_block_field:group-group_content'
+    fields:
+      'dynamic_block_field:group-group_content':
+        plugin_id: 'dynamic_block_field:group-group_content'
+        weight: 2
+        label: hidden
+        formatter: default
+id: group.organization.default
+targetEntityType: group
+bundle: organization
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  label:
+    label: hidden
+    type: string
+    weight: 0
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  uid: true

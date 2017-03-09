@@ -1,0 +1,36 @@
+uuid: 3ff4a585-34c7-4594-83f3-b6516052f716
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group.organization.field_description
+    - group.type.organization
+  module:
+    - path
+    - text
+id: group.organization.default
+targetEntityType: group
+bundle: organization
+mode: default
+content:
+  field_description:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  label:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

@@ -1,0 +1,12 @@
+uuid: 003494c6-410f-45de-8fd9-eb21b4066d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - content_moderation.state.published
+    - content_moderation.state.retired
+id: published_retired
+label: Retired
+stateFrom: published
+stateTo: retired
+weight: -4

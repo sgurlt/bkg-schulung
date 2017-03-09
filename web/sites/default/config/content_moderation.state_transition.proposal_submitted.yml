@@ -1,0 +1,12 @@
+uuid: b151cd46-2955-4e08-98a9-08ac79203443
+langcode: en
+status: true
+dependencies:
+  config:
+    - content_moderation.state.proposal
+    - content_moderation.state.submitted
+id: proposal_submitted
+label: Submitted
+stateFrom: proposal
+stateTo: submitted
+weight: -9

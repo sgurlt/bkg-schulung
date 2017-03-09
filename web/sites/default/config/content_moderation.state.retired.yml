@@ -1,0 +1,9 @@
+uuid: f9775100-eaa9-42ea-9bca-87f89257754f
+langcode: en
+status: true
+dependencies: {  }
+id: retired
+label: Retired
+published: false
+default_revision: false
+weight: -7

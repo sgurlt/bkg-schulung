@@ -1,0 +1,16 @@
+uuid: 5fc46405-334f-4619-bdb9-2a34a739b04e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.organization
+id: organization-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: organization
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'view group_node:article entity'

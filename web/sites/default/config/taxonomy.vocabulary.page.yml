@@ -1,0 +1,9 @@
+uuid: 4e72cfa7-6497-44e7-a8ca-5444eae9d98d
+langcode: en
+status: true
+dependencies: {  }
+name: Page
+vid: page
+description: ''
+hierarchy: 0
+weight: 0

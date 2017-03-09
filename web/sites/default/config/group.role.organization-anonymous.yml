@@ -1,0 +1,16 @@
+uuid: a27b0415-6660-49e0-af79-20182b7a3074
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.organization
+id: organization-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: organization
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'view group_node:article entity'

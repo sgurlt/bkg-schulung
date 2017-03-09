@@ -1,0 +1,14 @@
+uuid: 36ed0323-631d-4e4a-9fb9-0e1b58e9ac8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.control_body
+  module:
+    - user
+id: user_remove_role_action.control_body
+label: 'Remove the Control-Body role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: control_body

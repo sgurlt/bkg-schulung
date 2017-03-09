@@ -1,0 +1,14 @@
+uuid: 7fc91a4e-3d33-4cc0-b1ed-743dc8694bd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.control_body
+  module:
+    - user
+id: user_add_role_action.control_body
+label: 'Add the Control-Body role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: control_body

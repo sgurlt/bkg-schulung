@@ -1,0 +1,11 @@
+uuid: 5fa49672-bfb8-4dd7-a037-f4e62f560747
+langcode: en
+status: true
+dependencies:
+  config:
+    - content_moderation.state.proposal
+id: proposal_propsal
+label: Proposal
+stateFrom: proposal
+stateTo: proposal
+weight: -10

@@ -1,0 +1,9 @@
+uuid: 2311a192-50a4-4aff-8ad4-f50859ebeca3
+langcode: en
+status: true
+dependencies: {  }
+id: proposal
+label: Proposal
+published: false
+default_revision: false
+weight: -9

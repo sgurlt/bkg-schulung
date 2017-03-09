@@ -1,0 +1,14 @@
+uuid: d4d3e9da-861e-46e9-a433-fac9a38325a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.submitter
+  module:
+    - user
+id: user_remove_role_action.submitter
+label: 'Remove the Submitter role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: submitter

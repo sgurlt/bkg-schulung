@@ -1,0 +1,20 @@
+uuid: c5dc9813-7bd3-4a76-a251-0190d8d5f71f
+langcode: en
+status: true
+dependencies: {  }
+id: submitter
+label: Submitter
+weight: 3
+is_admin: null
+permissions:
+  0: 'access content overview'
+  1: 'view all revisions'
+  2: 'view own unpublished content'
+  6: 'view the administration theme'
+  7: 'access toolbar'
+  8: 'view moderation states'
+  9: 'view latest version'
+  10: 'use proposal_propsal transition'
+  11: 'use published_retired transition'
+  12: 'use proposal_submitted transition'
+  13: 'view any unpublished content'

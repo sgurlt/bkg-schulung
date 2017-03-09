@@ -1,0 +1,8 @@
+uuid: a2ef248f-dc71-4da5-b7a9-1b8e43305c1c
+langcode: en
+status: true
+dependencies: {  }
+id: organization
+label: Organization
+description: ''
+creator_roles: {  }

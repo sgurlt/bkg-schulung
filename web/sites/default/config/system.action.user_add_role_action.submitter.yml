@@ -1,0 +1,14 @@
+uuid: 32a024f4-93bb-4a1a-b2f8-81214e7033ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.submitter
+  module:
+    - user
+id: user_add_role_action.submitter
+label: 'Add the Submitter role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: submitter

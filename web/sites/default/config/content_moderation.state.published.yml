@@ -1,0 +1,9 @@
+uuid: a1b00d06-b47d-45e0-a023-3541a5b47617
+langcode: en
+status: true
+dependencies: {  }
+id: published
+label: Published
+published: true
+default_revision: true
+weight: -8

@@ -1,0 +1,12 @@
+uuid: 05cf9bbd-28ad-489c-a5e0-93d0b64e1a43
+langcode: en
+status: true
+dependencies:
+  config:
+    - content_moderation.state.published
+    - content_moderation.state.submitted
+id: submitted_published
+label: Published
+stateFrom: submitted
+stateTo: published
+weight: -3

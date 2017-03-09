@@ -1,0 +1,25 @@
+uuid: 34fd5669-b5fa-43a4-b88d-e39219df54c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.organization
+id: organization-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: organization
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'access group_node overview'
+  - 'create group_node:article entity'
+  - 'update any group_node:article entity'
+  - 'update own group_node:article entity'
+  - 'view group_node:article entity'
+  - 'view unpublished group_node:article entity'
+  - 'create group_node:article content'
+  - 'update any group_node:article content'
+  - 'update own group_node:article content'
+  - 'view group_node:article content'

@@ -1,0 +1,12 @@
+uuid: 70009f91-2ca1-4add-a8b8-c7e186fc6077
+langcode: en
+status: true
+dependencies:
+  config:
+    - content_moderation.state.proposal
+    - content_moderation.state.retired
+id: retired_proposal
+label: Proposal
+stateFrom: retired
+stateTo: proposal
+weight: -5

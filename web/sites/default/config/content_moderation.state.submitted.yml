@@ -1,0 +1,9 @@
+uuid: 337fae78-1075-4e21-bc73-58005858c6b1
+langcode: en
+status: true
+dependencies: {  }
+id: submitted
+label: Submitted
+published: false
+default_revision: false
+weight: -10
